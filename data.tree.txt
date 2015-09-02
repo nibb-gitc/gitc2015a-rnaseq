@@ -1,0 +1,287 @@
+data/
+├── EX
+│   ├── C1_10k_Read1.fq
+│   ├── C1_10k_Read2.fq
+│   ├── C1_read1.fq
+│   ├── C1_read2.fq
+│   ├── C2_10k_Read1.fq
+│   ├── C2_10k_Read2.fq
+│   ├── C2_read1.fq
+│   ├── C2_read2.fq
+│   ├── Drosophila_melanogaster_Ensembl_BDGP5.25.tar.gz
+│   └── practice2
+│       ├── Data
+│       │   ├── TAIR10_pep_20110103_representative_gene_model_updated
+│       │   ├── Trinity.fasta
+│       │   └── blastx_results.txt
+│       ├── IlluminaReads
+│       │   ├── D1_R1.fastq
+│       │   ├── D2_R1.fastq
+│       │   ├── D3_R1.fastq
+│       │   ├── L1_R1.fastq
+│       │   ├── L2_R1.fastq
+│       │   └── L3_R1.fastq
+│       └── Scripts
+│           ├── compile_results.rb
+│           └── merge_express_results.rb
+├── HN
+│   └── sprot
+│       ├── 128UP_DROME.fasta
+│       ├── 128UP_DROME.phylip
+│       ├── 128UP_DROME.sprot
+│       ├── 140U_DROME.fasta
+│       ├── 140U_DROME.phylip
+│       ├── 140U_DROME.sprot
+│       ├── 1433B_HUMAN.fasta
+│       ├── 1433B_HUMAN.phylip
+│       ├── 1433B_HUMAN.sprot
+│       ├── 1433B_MOUSE.fasta
+│       ├── 1433B_MOUSE.phylip
+│       ├── 1433B_MOUSE.sprot
+│       ├── 1433E_DROME.fasta
+│       ├── 1433E_DROME.phylip
+│       ├── 1433E_DROME.sprot
+│       ├── 1433E_HUMAN.fasta
+│       ├── 1433E_HUMAN.phylip
+│       ├── 1433E_HUMAN.sprot
+│       ├── 1433E_MOUSE.fasta
+│       ├── 1433E_MOUSE.phylip
+│       ├── 1433E_MOUSE.sprot
+│       ├── 1433F_HUMAN.fasta
+│       ├── 1433F_HUMAN.phylip
+│       ├── 1433F_HUMAN.sprot
+│       ├── 1433F_MOUSE.fasta
+│       ├── 1433F_MOUSE.phylip
+│       ├── 1433F_MOUSE.sprot
+│       ├── 1433G_HUMAN.fasta
+│       ├── 1433G_HUMAN.phylip
+│       ├── 1433G_HUMAN.sprot
+│       ├── 1433G_MOUSE.fasta
+│       ├── 1433G_MOUSE.phylip
+│       ├── 1433G_MOUSE.sprot
+│       ├── 1433S_HUMAN.fasta
+│       ├── 1433S_HUMAN.phylip
+│       ├── 1433S_HUMAN.sprot
+│       ├── 1433S_MOUSE.fasta
+│       ├── 1433S_MOUSE.phylip
+│       ├── 1433S_MOUSE.sprot
+│       ├── 1433T_HUMAN.fasta
+│       ├── 1433T_HUMAN.phylip
+│       ├── 1433T_HUMAN.sprot
+│       ├── 1433T_MOUSE.fasta
+│       ├── 1433T_MOUSE.phylip
+│       ├── 1433T_MOUSE.sprot
+│       ├── 1433Z_DROME.fasta
+│       ├── 1433Z_DROME.phylip
+│       ├── 1433Z_DROME.sprot
+│       ├── 1433Z_HUMAN.fasta
+│       ├── 1433Z_HUMAN.phylip
+│       ├── 1433Z_HUMAN.sprot
+│       ├── 1433Z_MOUSE.fasta
+│       ├── 1433Z_MOUSE.phylip
+│       ├── 1433Z_MOUSE.sprot
+│       ├── 18C_DROME.fasta
+│       ├── 18C_DROME.phylip
+│       ├── 18C_DROME.sprot
+│       ├── 1A01_HUMAN.fasta
+│       ├── 1A01_HUMAN.phylip
+│       ├── 1A01_HUMAN.sprot
+│       ├── 1A02_HUMAN.fasta
+│       ├── 1A02_HUMAN.phylip
+│       ├── 1A02_HUMAN.sprot
+│       ├── 1A03_HUMAN.fasta
+│       ├── 1A03_HUMAN.phylip
+│       ├── 1A03_HUMAN.sprot
+│       ├── 1A11_HUMAN.fasta
+│       ├── 1A11_HUMAN.phylip
+│       ├── 1A11_HUMAN.sprot
+│       ├── 1A1L1_HUMAN.fasta
+│       ├── 1A1L1_HUMAN.phylip
+│       ├── 1A1L1_HUMAN.sprot
+│       ├── 1A1L1_MOUSE.fasta
+│       ├── 1A1L1_MOUSE.phylip
+│       ├── 1A1L1_MOUSE.sprot
+│       ├── 1A1L2_HUMAN.fasta
+│       ├── 1A1L2_HUMAN.phylip
+│       ├── 1A1L2_HUMAN.sprot
+│       ├── 1A1L2_MOUSE.fasta
+│       ├── 1A1L2_MOUSE.phylip
+│       ├── 1A1L2_MOUSE.sprot
+│       ├── 1A23_HUMAN.fasta
+│       ├── 1A23_HUMAN.phylip
+│       ├── 1A23_HUMAN.sprot
+│       ├── 1A24_HUMAN.fasta
+│       ├── 1A24_HUMAN.phylip
+│       ├── 1A24_HUMAN.sprot
+│       ├── 1A25_HUMAN.fasta
+│       ├── 1A25_HUMAN.phylip
+│       ├── 1A25_HUMAN.sprot
+│       ├── 1A26_HUMAN.fasta
+│       ├── 1A26_HUMAN.phylip
+│       ├── 1A26_HUMAN.sprot
+│       ├── 1A29_HUMAN.fasta
+│       ├── 1A29_HUMAN.phylip
+│       ├── 1A29_HUMAN.sprot
+│       ├── 1A30_HUMAN.fasta
+│       ├── 1A30_HUMAN.phylip
+│       ├── 1A30_HUMAN.sprot
+│       ├── 1A31_HUMAN.fasta
+│       ├── 1A31_HUMAN.phylip
+│       ├── 1A31_HUMAN.sprot
+│       ├── 2A5A_MOUSE.fasta
+│       ├── 2A5A_MOUSE.phylip
+│       ├── 2A5A_MOUSE.sprot
+│       ├── 2A5E_MOUSE.fasta
+│       ├── 2A5E_MOUSE.phylip
+│       ├── 2A5E_MOUSE.sprot
+│       ├── 2A5G_MOUSE.fasta
+│       ├── 2A5G_MOUSE.phylip
+│       ├── 2A5G_MOUSE.sprot
+│       ├── 2AAA_DROME.fasta
+│       ├── 2AAA_DROME.phylip
+│       ├── 2AAA_DROME.sprot
+│       ├── 2AAA_MOUSE.fasta
+│       ├── 2AAA_MOUSE.phylip
+│       ├── 2AAA_MOUSE.sprot
+│       ├── 2AAB_MOUSE.fasta
+│       ├── 2AAB_MOUSE.phylip
+│       ├── 2AAB_MOUSE.sprot
+│       ├── 2ABA_DROME.fasta
+│       ├── 2ABA_DROME.phylip
+│       ├── 2ABA_DROME.sprot
+│       ├── 2ABA_MOUSE.fasta
+│       ├── 2ABA_MOUSE.phylip
+│       ├── 2ABA_MOUSE.sprot
+│       ├── 2ABB_MOUSE.fasta
+│       ├── 2ABB_MOUSE.phylip
+│       ├── 2ABB_MOUSE.sprot
+│       ├── 2ABD_MOUSE.fasta
+│       ├── 2ABD_MOUSE.phylip
+│       ├── 2ABD_MOUSE.sprot
+│       ├── 2ABG_MOUSE.fasta
+│       ├── 2ABG_MOUSE.phylip
+│       ├── 2ABG_MOUSE.sprot
+│       ├── 3BHS1_MOUSE.fasta
+│       ├── 3BHS1_MOUSE.phylip
+│       ├── 3BHS1_MOUSE.sprot
+│       ├── 3BHS2_MOUSE.fasta
+│       ├── 3BHS2_MOUSE.phylip
+│       ├── 3BHS2_MOUSE.sprot
+│       ├── 3BP5H_DROME.fasta
+│       ├── 3BP5H_DROME.phylip
+│       ├── 3BP5H_DROME.sprot
+│       ├── 3HIDH_DROME.fasta
+│       ├── 3HIDH_DROME.phylip
+│       ├── 3HIDH_DROME.sprot
+│       ├── 41_DROME.fasta
+│       ├── 41_DROME.phylip
+│       ├── 41_DROME.sprot
+│       ├── 5HT1R_DROME.fasta
+│       ├── 5HT1R_DROME.phylip
+│       ├── 5HT1R_DROME.sprot
+│       ├── 5HT2A_DROME.fasta
+│       ├── 5HT2A_DROME.phylip
+│       ├── 5HT2A_DROME.sprot
+│       ├── 5HT2B_DROME.fasta
+│       ├── 5HT2B_DROME.phylip
+│       ├── 5HT2B_DROME.sprot
+│       ├── 60A_DROME.fasta
+│       ├── 60A_DROME.phylip
+│       ├── 60A_DROME.sprot
+│       ├── 6PGD_DROME.fasta
+│       ├── 6PGD_DROME.phylip
+│       ├── 6PGD_DROME.sprot
+│       ├── 6PGL_DROME.fasta
+│       ├── 6PGL_DROME.phylip
+│       ├── 6PGL_DROME.sprot
+│       ├── 7LESS_DROME.fasta
+│       ├── 7LESS_DROME.phylip
+│       ├── 7LESS_DROME.sprot
+│       ├── 7UP1_DROME.fasta
+│       ├── 7UP1_DROME.phylip
+│       ├── 7UP1_DROME.sprot
+│       ├── 7UP2_DROME.fasta
+│       ├── 7UP2_DROME.phylip
+│       ├── 7UP2_DROME.sprot
+│       ├── A29AB_DROME.fasta
+│       ├── A29AB_DROME.phylip
+│       ├── A29AB_DROME.sprot
+│       └── testpg
+├── IU
+│   ├── lung_cancer.txt
+│   └── plotAll.R
+├── KY
+│   ├── Ex1_1.fq
+│   ├── Ex1_2.fq
+│   ├── Ex1_3.bed
+│   ├── Ex1_4.gtf
+│   ├── Ex1_7.bam
+│   ├── Ex1_7.sam
+│   ├── Ex1_7_preanalysis
+│   │   ├── Ex1_7.s.bam
+│   │   ├── Ex1_7.s.bam.bai
+│   │   └── Ex1_7.sam
+│   ├── Ex2_1.sra
+│   ├── IGV
+│   │   ├── accepted_hits.bam
+│   │   ├── accepted_hits.bam.bai
+│   │   ├── bowtie2_B2_var.flt.vcf
+│   │   ├── bowtie2_B4_var.flt.vcf
+│   │   ├── buc.genome.fasta
+│   │   ├── buc.genome.fasta.fai
+│   │   ├── buc.gtf
+│   │   ├── buc_cg.wig
+│   │   ├── buc_cg.wig.tdf
+│   │   ├── illumina_ex_B2_Read_bowtie2.mate.sort.bam
+│   │   ├── illumina_ex_B2_Read_bowtie2.mate.sort.bam.bai
+│   │   ├── illumina_ex_B4_Read_bowtie2.mate.sort.bam
+│   │   └── illumina_ex_B4_Read_bowtie2.mate.sort.bam.bai
+│   └── tophat
+│       ├── 2D2L_1_R1.fastq
+│       ├── 2D2L_1_R2.fastq
+│       ├── 2D2L_2_R1.fastq
+│       ├── 2D2L_2_R2.fastq
+│       ├── 2D2L_3_R1.fastq
+│       ├── 2D2L_3_R2.fastq
+│       ├── 2D_1_R1.fastq
+│       ├── 2D_1_R2.fastq
+│       ├── 2D_2_R1.fastq
+│       ├── 2D_2_R2.fastq
+│       ├── 2D_3_R1.fastq
+│       ├── 2D_3_R2.fastq
+│       ├── genes_chr4.gtf
+│       ├── genome_chr4.1.bt2
+│       ├── genome_chr4.2.bt2
+│       ├── genome_chr4.3.bt2
+│       ├── genome_chr4.4.bt2
+│       ├── genome_chr4.fa
+│       ├── genome_chr4.fa.fai
+│       ├── genome_chr4.rev.1.bt2
+│       └── genome_chr4.rev.2.bt2
+├── MS
+│   ├── Sato_A_thaliana-P_syringae_arvRpt2_6h_expRatio_full.txt
+│   ├── Sato_A_thaliana-P_syringae_arvRpt2_6h_expRatio_small.txt
+│   └── multivariable_analysis.R
+├── SS
+│   ├── IlluminaReads1.fq
+│   ├── Trinity_Ath2.fasta
+│   ├── arab2.txt
+│   ├── human.protein.faa
+│   └── minimouse_mRNA.fa
+└── TM
+    ├── EX2_A1.sam
+    ├── Ex1_1.fq
+    ├── Ex1_2.fq
+    ├── Ex1_3.bed
+    ├── Ex1_4.gtf
+    ├── Ex1_7.bam
+    ├── Ex1_7_preanalysis
+    │   ├── Ex1_7.s.bam
+    │   ├── Ex1_7.s.bam.bai
+    │   └── Ex1_7.sam
+    ├── Ex2_1.sra
+    ├── samtools
+    └── sratoolkit
+        └── fastq-dump
+
+17 directories, 267 files
